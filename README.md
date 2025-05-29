@@ -1,31 +1,34 @@
-# Backend Prediction Assignment
+=# Backend Prediction Assignment
 
-##  Objective
+## Objective
 A basic backend service to support prediction posting and retrieval for a Backend Developer Intern assignment.
 
-##  Tech Stack
+## Tech Stack
 - Node.js
 - Express.js
-- MongoDB (or Firebase / mock DB)
-- Postman (for testing)
+- MongoDB (or mock database)
+- Postman (for API testing)
 
-## Endpoints
+## API Endpoints
 
 ### 1. `POST /prediction`
-- **Input**: `question`, `category`, `expiryTime`
-- **Output**: `predictionId`, success message
+- **Input**: 
+  - `question` (string, required)
+  - `category` (string, required)
+  - `expiryTime` (ISO 8601 date string, required)
+- **Output**: 
+  - `predictionId` (string)
+  - Success message
 
 ### 2. `GET /predictions`
-- **Output**: List of active predictions
+- **Output**: List of all active (non-expired) predictions
 
-### 3. (Optional) `POST /opinion`
-- **Input**: `predictionId`, `userId`, `opinion` ("Yes"/"No"), `amount`
+## Testing
+Use Postman or any REST client to test endpoints with proper input validation.
 
-##  Testing
-Use Postman to test each endpoint with proper input validation.
-
-##  How to Run
+## How to Run
 
 1. Install dependencies:
+
    ```bash
-   npm 
+   npm install
