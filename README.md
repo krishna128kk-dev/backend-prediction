@@ -1,31 +1,31 @@
-# 🔮 Backend Prediction Service
+# Backend Prediction Assignment
 
-A basic Node.js backend to post and retrieve predictions.
+## 📌 Objective
+A basic backend service to support prediction posting and retrieval for a Backend Developer Intern assignment.
 
-## 📦 Tech Stack
-
+## 🚀 Tech Stack
 - Node.js
 - Express.js
-- express-validator
-- (In-memory storage used)
+- MongoDB (or Firebase / mock DB)
+- Postman (for testing)
 
----
+## 📁 Endpoints
 
-## 🚀 Features
+### 1. `POST /prediction`
+- **Input**: `question`, `category`, `expiryTime`
+- **Output**: `predictionId`, success message
 
-- `POST /prediction`: Create a new prediction  
-- `GET /predictions`: Get all active predictions (not expired)
+### 2. `GET /predictions`
+- **Output**: List of active predictions
 
----
+### 3. (Optional) `POST /opinion`
+- **Input**: `predictionId`, `userId`, `opinion` ("Yes"/"No"), `amount`
 
-## 🔧 Installation
+## 🧪 Testing
+Use Postman to test each endpoint with proper input validation.
 
-```bash
-# 1. Clone the repo or download the folder
-cd backend-prediction
+## ▶️ How to Run
 
-# 2. Install dependencies
-npm install
-
-# 3. Start the server
-node server.js
+1. Install dependencies:
+   ```bash
+   npm 
