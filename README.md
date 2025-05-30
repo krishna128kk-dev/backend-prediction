@@ -16,7 +16,6 @@ This project was developed as part of a Backend Developer Intern assignment.
 - Node.js  
 - Express.js  
 - MongoDB  
-- Mongoose  
 - Postman (for API testing)
 
 ## Setup & Run
