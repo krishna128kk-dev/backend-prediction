@@ -94,6 +94,25 @@ Test endpoints using Postman or any REST API client.
 - Only active (non-expired) predictions are returned.
 - Opinions endpoint is optional and can be expanded with persistent storage.
 
+## Screenshots
+
+### Server running in VS Code terminal
+
+![Server Running](screenshots/server.png)
+
+### POST /prediction request and response in Postman
+
+![Post Prediction](screenshots/post prediction.png)
+
+### GET /predictions response in Postman
+
+![Get Predictions](screenshots/get predictions.png)
+
+### POST /opinion request and response in Postman
+
+![Post Opinion](screenshots/opinion.png)
+
+
 ---
 
 Thank you for reviewing my assignment!
