@@ -9,7 +9,7 @@ This project was developed as part of a Backend Developer Intern assignment.
 
 - **POST /prediction**: Create a new prediction with question, category, and expiry time.  
 - **GET /predictions**: Retrieve a list of all active (non-expired) predictions.  
-- **POST /opinion** (optional): Submit an opinion on a prediction with user ID, opinion ("Yes"/"No"), and amount.
+- **POST /opinion***: Submit an opinion on a prediction with user ID, opinion ("Yes"/"No"), and amount.
 
 ## Technologies Used
 
